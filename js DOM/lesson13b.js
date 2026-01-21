@@ -19,7 +19,7 @@
         if(amount >this.balance){
             console.log(`Your balance is ${this.balance}. You cannot withdraw`)
         }else{
-        this.balance=+amount
+        this.balance=+amount 
             console.log(`You have withdrawn ${amount}. Your balance is ${this.balance}`)
         }
     }
